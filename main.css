@@ -19,7 +19,7 @@ body {
 }
 
 #content {
-  font-size: 10vw;
+  font-size: 5rem;
   font-weight: bold;
   padding: 10vw 3vw 10vw 3vw;
   text-align: center;
@@ -84,6 +84,7 @@ a.button {
   color: #000;
   text-align: center;
   transition: all 0.15s;
+  cursor: pointer;
 }
 
 #footer {
@@ -94,9 +95,10 @@ a.button {
 }
 
 @media only screen and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    color: red;
+  #content {
+    font-size: 10vw;
   }
+
   a.button {
     font-size: 2rem;
   }

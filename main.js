@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   iveble();
   document.querySelector("#newplsuwu").addEventListener("click", (event) => {
     event.preventDefault();
-    e.stopImmediatePropagation();
     iveble();
   });
 });
