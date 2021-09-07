@@ -5,7 +5,7 @@ const iveble = () => {
   const randomive = ive[Math.floor(Math.random() * ive.length)];
   const randomable = ble[Math.floor(Math.random() * ble.length)];
   const output = `${randomive}<br/>and<br/>${randomable}`;
-  const tweetText = `i'm ${randomive} and ${randomable}🥺`;
+  const tweetText = `i'm ${randomive} and ${randomable} 🥺`;
   document.querySelector("#content").innerHTML = output;
   document.querySelector(".twitter-btn").addEventListener("click", (event) => {
     event.preventDefault();
